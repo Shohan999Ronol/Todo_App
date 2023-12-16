@@ -31,7 +31,7 @@ class AddTaskScreen extends StatelessWidget {
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 30.0,
-                color: Colors.lightBlueAccent,
+                color: Colors.deepPurpleAccent,
               ),
             ),
             TextField(
@@ -44,7 +44,7 @@ class AddTaskScreen extends StatelessWidget {
             SizedBox(height: 24),
             ElevatedButton(
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.lightBlueAccent,
+                backgroundColor: Colors.deepPurpleAccent,
               ),
               child: Text(
                 'Add',

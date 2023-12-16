@@ -13,16 +13,16 @@ class TasksScreen extends StatefulWidget {
 class _TasksScreenState extends State<TasksScreen> {
   List<Task> _tasks = [
     Task(name: 'Learn Flutter'),
-    Task(name: 'Teach State Management'),
-    Task(name: 'Import Provider Package'),
+    Task(name: 'Need to make coffee'),
+    Task(name: 'football at 7:30 pm'),
   ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.lightBlueAccent,
+      backgroundColor: Colors.deepPurpleAccent,
       floatingActionButton: FloatingActionButton(
-        backgroundColor: Colors.lightBlueAccent,
+        backgroundColor: Colors.deepPurpleAccent,
         child: Icon(
           Icons.add,
           color: Colors.white,
